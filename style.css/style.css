@@ -8,29 +8,27 @@ padding:0;
 
 header{
 background:#1a1a1a;
-color:white;
+color:rgb(255, 0, 0);
 text-align:center;
 padding:25px;
 }
 
 
 nav{
-background:#333;
+background:#ffffff;
 text-align:center;
 padding:15px;
 }
 
 nav a{
-color:white;
+color:rgb(255, 0, 0);
 margin:15px;
 text-decoration:none;
 font-size:18px;
 font-weight:bold;
 }
 
-nav a:hover{
-color:#00ffcc;
-}
+
 
 
 section{
