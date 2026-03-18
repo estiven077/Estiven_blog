@@ -1,105 +1,107 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-margin:0;
-padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
 
 }
 
 
 header{
-background:#1a1a1a;
-color:rgb(255, 0, 0);
-text-align:center;
-padding:25px;
+    background:#1a1a1a;
+    color:rgb(255, 0, 0);
+    text-align:center;
+    padding:25px;
 }
 
 
 nav{
-background:#ffffff;
-text-align:center;
-padding:15px;
+    background:#ffffff;
+    text-align:center;
+    padding:15px;
 }
 
 nav a{
-color:rgb(255, 0, 0);
-margin:15px;
-text-decoration:none;
-font-size:18px;
-font-weight:bold;
+    color:rgb(255, 0, 0);
+    margin:15px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
 }
-nav ol li{
+nav ul li{
     display: inline;
+}
+article{
+    padding: 6px;
 }
 
 
 
 section{
-width:70%;
-float:left;
-padding:20px;
-background:white;
+    width:70%;
+    padding:20px;
+    background:white;
 
 }
 
 aside{
-width:25%;
-float:right;
-background:#eaeaea;
-padding:20px;
-margin-top:20px;
-border-radius:10px;
+    width:25%;
+    float:right;
+    backgrou;nd:#eaeaea;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
 }
 
 img{
-margin:10px;
-border-radius:10px;
-box-shadow:2px 2px 5px gray;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:2px 2px 5px gray;
 }
 
 
 table{
-width:100%;
-border-collapse:collapse;
-margin-top:20px;
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
 }
 
 th{
-background:#333;
-color:white;
-padding:10px;
+    background:#333;
+    color:white;
+    padding:10px;
 }
 
 table, th, td{
-border:1px solid black;
-padding:10px;
-text-align:center;
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
 }
 
 caption{
-font-size:18px;
-margin-bottom:10px;
-font-weight:bold;
+    font-size:18px;
+    margin-bottom:10px;
+    font-weight:bold;
 }
 
 
 form{
-background:#f2f2f2;
-padding:20px;
-border-radius:10px;
-width:60%;
+    background:#f2f2f2;
+    padding:20px;
+    border-radius:10px;
+    width:60%;
 }
 
 input, textarea{
-width:100%;
-padding:8px;
-margin-top:5px;
+    width:100%;
+    padding:8px;
+    margin-top:5px;
 }
 
 input[type="submit"]{
-background:#333;
-color:white;
-border:none;
-cursor:pointer;
+    background:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
 }
 
 input[type="submit"]:hover{
@@ -107,11 +109,11 @@ background:#555;
 }
 
 footer{
-clear:both;
-background:#1a1a1a;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:20px;
+    clear:both;
+    background:#1a1a1a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
 }
 
