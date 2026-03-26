@@ -30,9 +30,6 @@ nav a{
 nav a:hover{
     color:#0525c0;
 }
-
-
-
 nav ul li{
     display: inline;
 }
@@ -132,7 +129,7 @@ footer{
     0 0 10px rgb(50, 232, 232),
     0 0 20px black;
 }
-}
+
 table{
     width: 100%;
     border-collapse: collapse;
