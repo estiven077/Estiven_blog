@@ -71,10 +71,11 @@ table{
 }
 
 th{
-    background:#333;
+    background:#2e2d2d;
     color:white;
     padding:10px;
 }
+
 
 table, th, td{
     border:1px solid black;
@@ -130,5 +131,26 @@ footer{
     text-shadow: 1px 1px 2px rgb(255, 255, 255),
     0 0 10px rgb(50, 232, 232),
     0 0 20px black;
+}
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+th{
+    color: white;
+    background-color: rgb(49, 49, 216);
+}
+tr:nth-child(even){
+    background-color: rgb(191, 194, 202);
+}
+
+tr:hover{
+    background-color: rgb(101, 184, 155);
+    cursor: pointer;
 }
 
