@@ -27,13 +27,18 @@ nav a{
     font-size:18px;
     font-weight:bold;
 }
+nav a:hover{
+    color:#0525c0;
+}
+
+
+
 nav ul li{
     display: inline;
 }
 article{
     padding: 6px;
 }
-
 
 
 section{
@@ -46,7 +51,7 @@ section{
 aside{
     width:25%;
     float:right;
-    backgrou;nd:#eaeaea;
+    background-color: #f2f2f2;
     padding:20px;
     margin-top:20px;
     border-radius:10px;
@@ -115,5 +120,15 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:20px;
+}
+.titulo{
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    /* text-shadow: 5px 3px red; */
+    text-shadow: 1px 1px 2px rgb(255, 255, 255),
+    0 0 10px rgb(50, 232, 232),
+    0 0 20px black;
 }
 
